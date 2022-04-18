@@ -12,7 +12,7 @@ begin
    end loop;
   close dept_cur; 
 end;
-*/
+ */
 /*
 declare
   cursor dept_cur is select * from departments;
