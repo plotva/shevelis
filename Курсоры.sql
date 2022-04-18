@@ -1,5 +1,6 @@
 set SERVEROUTPUT on
 /*
+--dd
 declare
   cursor dept_cur is select * from departments;
   dept_rec dept_cur%rowtype;
